@@ -19,9 +19,89 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: Geneva, Futura, sans-serif;
+    color:#CF4E4E;
+    background-color:#18337A
 }
 
 img {
 	width: 100%;
     display: block;
+}
+
+body {
+    padding: 2%;
+    margin:2%;
+}
+
+.masthead {
+    background-color:#CF4E4E;
+    overflow:hidden;
+}
+
+.logo {
+    height: 6.5rem;
+    width:auto;
+    margin: .5rem;
+}
+
+article {
+    margin: 2%;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 1.5rem 0;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-family: "Franklin Gothic Medium"
+}
+
+h1 + p {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height:1.25rem;
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 0 0 1.5rem;
+}
+
+figure {
+    margin: 0 auto 1.5; 
+    width:auto;
+}
+
+
+figcaption {
+    font-size: 1rem;
+    margin: .5rem 0 0;
+    font-weight:bold;
+}
+
+footer {
+    background-color: #CF4E4E;
+    overflow: hidden;
+}
+
+
+footer p {
+    font-size: .75rem;
+    margin: .5rem 5%;
+    color: #18337A;
+}
+
+footer a {
+    color:#18337A;
+}
+
+em {
+    font-weight:bold;
+    font-style:italic;
+}
+
+ul {
+    font-style:oblique;
 }
